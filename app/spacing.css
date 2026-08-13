@@ -1,0 +1,107 @@
+/* Shared spacing rhythm for every portfolio section and breakpoint. */
+:root {
+  --page-gutter: clamp(1.25rem, 5vw, 4rem);
+  --section-space: clamp(4.5rem, 9vw, 8.5rem);
+  --content-gap: clamp(1.5rem, 3vw, 3rem);
+  --card-padding: clamp(1.25rem, 2.5vw, 1.5rem);
+}
+
+.section {
+  padding: var(--section-space) var(--page-gutter);
+}
+
+.nav,
+footer {
+  padding-inline: var(--page-gutter);
+}
+
+.hero {
+  padding-top: calc(var(--section-space) + 76px);
+}
+
+.hero-grid,
+.about-content,
+.terminal,
+.contact {
+  gap: var(--content-gap);
+}
+
+.hero-grid {
+  padding-top: var(--content-gap);
+}
+
+.headline-row {
+  margin: clamp(2rem, 4vw, 2.75rem) 0 clamp(2.5rem, 5vw, 3.5rem);
+  gap: var(--content-gap);
+}
+
+.about-content {
+  margin: clamp(2.25rem, 4vw, 3rem) 0 clamp(3.5rem, 6vw, 5rem);
+}
+
+.hero-foot {
+  margin-top: clamp(3rem, 7vw, 5rem);
+}
+
+.work,
+.contact {
+  padding-inline: max(var(--page-gutter), calc((100vw - 1280px) / 2 + var(--page-gutter)));
+}
+
+.project-grid {
+  gap: var(--content-gap);
+}
+
+.project-art,
+.skill-group,
+.credential-grid article,
+.code {
+  padding: var(--card-padding);
+}
+
+.project-meta {
+  padding-block: 1.25rem;
+}
+
+.timeline {
+  margin-top: clamp(2.25rem, 4vw, 3rem);
+}
+
+.timeline article {
+  grid-template-columns: minmax(9rem, 0.45fr) minmax(0, 1fr);
+  gap: var(--content-gap);
+  padding: clamp(1.5rem, 3vw, 2.1rem) 0 clamp(1.5rem, 3vw, 2.1rem) 1.5rem;
+}
+
+.credential-grid {
+  gap: var(--content-gap);
+  margin-top: clamp(2rem, 4vw, 2.5rem);
+}
+
+.contact form {
+  gap: 1.25rem;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    padding-top: calc(4rem + 66px);
+  }
+
+  .hero-grid,
+  .about-content,
+  .terminal,
+  .contact {
+    gap: 2rem;
+  }
+
+  .timeline article {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+    padding-left: 1.25rem;
+  }
+
+  .credential-grid,
+  .project-grid {
+    gap: 1.25rem;
+  }
+}

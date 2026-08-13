@@ -1837,35 +1837,28 @@ const projects = [
 ];
 const experience = [
     {
-        date: "2024 — Present",
-        role: "Software Developer",
-        company: "Your Company",
-        copy: "Placeholder role: add your impact, ownership, and the kind of product work you did here.",
-        tech: "TypeScript · React · Node.js"
-    },
-    {
-        date: "2022 — 2024",
-        role: "Developer / Builder",
-        company: "Independent",
-        copy: "Placeholder experience: describe the projects, clients, or products that developed your craft.",
-        tech: "Next.js · Python · APIs"
+        date: "July 2026 — Present",
+        role: "Software Developer / Freelancer",
+        company: "Healthy & Happy",
+        copy: "Participated in the development of a web application for a health and wellness startup, contributing to both frontend and backend development using Next.js and TypeScript. Collaborated with the team to implement new features, optimize performance, and ensure a seamless user experience.",
+        tech: "Next.js · TypeScript · React · Node.js · Python · Tailwind CSS"
     }
 ];
 const credentials = [
     {
         type: "Education",
-        title: "Your degree or programme",
-        detail: "Institution · Year"
+        title: "BE (Information Science & Technology)",
+        detail: "University of Technology (Yadanarpon Cyber City) · Expected 2027"
     },
     {
         type: "Certification",
-        title: "Your certification",
-        detail: "Issuing organization · Year"
+        title: "Essential Maths for AI & ML",
+        detail: "Simbolo · 2024"
     },
     {
         type: "Recognition",
-        title: "Your achievement",
-        detail: "Context · Year"
+        title: "8 Public Projects Shipped",
+        detail: "Web, mobile, and AI/ML experiments · 2025–2026"
     }
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
