@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/projects.css"],"sourcesContent":[".project-links { display:flex; gap:1rem; margin-top:1.15rem; }\n.project-links a { color:#f7f5ef; text-decoration:none; font-size:.72rem; font-weight:700; border-bottom:1px solid #c9fb66; display:inline-flex; gap:.35rem; padding-bottom:.15rem; transition:transform .2s; }\n.project-links a:hover { transform:translateX(3px); }\n"],"names":[],"mappings":"AAAA;;;;;;AACA;;;;;;;;;;;;AACA"}}]
-}
