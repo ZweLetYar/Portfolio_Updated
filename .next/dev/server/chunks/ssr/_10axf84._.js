@@ -18,7 +18,7 @@ const Arrow = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5
         children: "↗"
     }, void 0, false, {
         fileName: "[project]/components/portfolio.tsx",
-        lineNumber: 5,
+        lineNumber: 12,
         columnNumber: 21
     }, ("TURBOPACK compile-time value", void 0));
 const Mark = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -27,8 +27,8 @@ const Mark = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d
         children: "✦"
     }, void 0, false, {
         fileName: "[project]/components/portfolio.tsx",
-        lineNumber: 6,
-        columnNumber: 20
+        lineNumber: 14,
+        columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 function Portfolio() {
     const [menu, setMenu] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -73,22 +73,22 @@ function Portfolio() {
                 className: "ambient ambient-one"
             }, void 0, false, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 14,
-                columnNumber: 3
+                lineNumber: 52,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "ambient ambient-two"
             }, void 0, false, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 14,
-                columnNumber: 42
+                lineNumber: 53,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "noise"
             }, void 0, false, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 14,
-                columnNumber: 81
+                lineNumber: 54,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                 className: "nav",
@@ -100,16 +100,16 @@ function Portfolio() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Mark, {}, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 15,
-                                columnNumber: 110
+                                lineNumber: 61,
+                                columnNumber: 11
                             }, this),
                             " ",
                             __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$portfolio$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["profile"].name
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 15,
-                        columnNumber: 27
+                        lineNumber: 56,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                         className: menu ? "open" : "",
@@ -141,13 +141,13 @@ function Portfolio() {
                                 children: label
                             }, id, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 15,
-                                columnNumber: 334
+                                lineNumber: 71,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 15,
-                        columnNumber: 142
+                        lineNumber: 63,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: "menu",
@@ -157,8 +157,8 @@ function Portfolio() {
                         children: menu ? "×" : "☰"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 15,
-                        columnNumber: 446
+                        lineNumber: 80,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         className: "nav-cta",
@@ -167,20 +167,20 @@ function Portfolio() {
                             "Let's talk ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Arrow, {}, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 15,
-                                columnNumber: 647
+                                lineNumber: 89,
+                                columnNumber: 27
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 15,
-                        columnNumber: 575
+                        lineNumber: 88,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 15,
-                columnNumber: 3
+                lineNumber: 55,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "top",
@@ -191,15 +191,15 @@ function Portfolio() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 71
+                                lineNumber: 94,
+                                columnNumber: 11
                             }, this),
                             " AVAILABLE FOR SELECTED WORK"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 46
+                        lineNumber: 93,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hero-grid",
@@ -215,37 +215,37 @@ function Portfolio() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 142
+                                        lineNumber: 98,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         children: [
                                             "Thoughtful software,",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 237
+                                                lineNumber: 103,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                                 children: "shaped with care."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 242
+                                                lineNumber: 104,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 213
+                                        lineNumber: 101,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "lede",
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$portfolio$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["profile"].intro
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 273
+                                        lineNumber: 106,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "hero-actions",
@@ -257,14 +257,14 @@ function Portfolio() {
                                                     "Explore work ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Arrow, {}, void 0, false, {
                                                         fileName: "[project]/components/portfolio.tsx",
-                                                        lineNumber: 16,
-                                                        columnNumber: 423
+                                                        lineNumber: 112,
+                                                        columnNumber: 30
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 342
+                                                lineNumber: 108,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 className: "button ghost",
@@ -272,20 +272,20 @@ function Portfolio() {
                                                 children: "Start a conversation"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 441
+                                                lineNumber: 114,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 312
+                                        lineNumber: 107,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 137
+                                lineNumber: 97,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
                                 className: "portrait",
@@ -294,8 +294,8 @@ function Portfolio() {
                                         className: "portrait-glow"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 579
+                                        lineNumber: 123,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "portrait-inner",
@@ -305,35 +305,35 @@ function Portfolio() {
                                                     "SOFTWARE",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/components/portfolio.tsx",
-                                                        lineNumber: 16,
-                                                        columnNumber: 657
+                                                        lineNumber: 127,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "DEVELOPER"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 643
+                                                lineNumber: 125,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$portfolio$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["profile"].initials
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 678
+                                                lineNumber: 130,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                 children: "EST. 2022"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 713
+                                                lineNumber: 131,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 611
+                                        lineNumber: 124,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "orbit orbit-a",
@@ -341,15 +341,15 @@ function Portfolio() {
                                             "TYPE",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 778
+                                                lineNumber: 135,
+                                                columnNumber: 15
                                             }, this),
                                             "SCRIPT"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 743
+                                        lineNumber: 133,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "orbit orbit-b",
@@ -357,27 +357,27 @@ function Portfolio() {
                                             "CREATIVE",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 834
+                                                lineNumber: 140,
+                                                columnNumber: 15
                                             }, this),
                                             "CODE"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 795
+                                        lineNumber: 138,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 551
+                                lineNumber: 122,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 110
+                        lineNumber: 96,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hero-foot",
@@ -389,14 +389,14 @@ function Portfolio() {
                                         children: "↓"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 914
+                                        lineNumber: 147,
+                                        columnNumber: 31
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 890
+                                lineNumber: 146,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
@@ -407,14 +407,14 @@ function Portfolio() {
                                             "GitHub ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Arrow, {}, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 982
+                                                lineNumber: 151,
+                                                columnNumber: 22
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 934
+                                        lineNumber: 150,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$portfolio$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["profile"].linkedin,
@@ -423,32 +423,32 @@ function Portfolio() {
                                             "LinkedIn ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Arrow, {}, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 1047
+                                                lineNumber: 154,
+                                                columnNumber: 24
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 995
+                                        lineNumber: 153,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 929
+                                lineNumber: 149,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 863
+                        lineNumber: 145,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 16,
-                columnNumber: 3
+                lineNumber: 92,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "about",
@@ -459,8 +459,8 @@ function Portfolio() {
                         children: "01 / ABOUT"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 17,
-                        columnNumber: 49
+                        lineNumber: 160,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "about-content",
@@ -472,14 +472,14 @@ function Portfolio() {
                                         children: "earn their place."
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 162
+                                        lineNumber: 163,
+                                        columnNumber: 44
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 17,
-                                columnNumber: 127
+                                lineNumber: 162,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
@@ -487,15 +487,15 @@ function Portfolio() {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$portfolio$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["profile"].bio
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 198
+                                        lineNumber: 166,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "I value small details, honest collaboration, and shipping things that make someone's day a little better."
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 218
+                                        lineNumber: 167,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         className: "text-link",
@@ -504,26 +504,26 @@ function Portfolio() {
                                             "More about my approach ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Arrow, {}, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 17,
-                                                columnNumber: 399
+                                                lineNumber: 172,
+                                                columnNumber: 38
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 335
+                                        lineNumber: 171,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 17,
-                                columnNumber: 193
+                                lineNumber: 165,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 17,
-                        columnNumber: 96
+                        lineNumber: 161,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "stats",
@@ -536,38 +536,38 @@ function Portfolio() {
                                                 children: "+"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 17,
-                                                columnNumber: 499
+                                                lineNumber: 181,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 482
+                                        lineNumber: 179,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: s.label
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 520
+                                        lineNumber: 183,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, s.label, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 17,
-                                columnNumber: 463
+                                lineNumber: 178,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 17,
-                        columnNumber: 424
+                        lineNumber: 176,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 17,
-                columnNumber: 3
+                lineNumber: 159,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "skills",
@@ -578,8 +578,8 @@ function Portfolio() {
                         children: "02 / CAPABILITIES"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 18,
-                        columnNumber: 44
+                        lineNumber: 189,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "headline-row",
@@ -589,34 +589,34 @@ function Portfolio() {
                                     "A versatile toolkit.",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 152
+                                        lineNumber: 193,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                         children: "A focused perspective."
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 157
+                                        lineNumber: 194,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 18,
-                                columnNumber: 128
+                                lineNumber: 191,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "These are editable placeholders — replace them with the technologies you actually use."
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 18,
-                                columnNumber: 193
+                                lineNumber: 196,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 18,
-                        columnNumber: 98
+                        lineNumber: 190,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "skills-grid",
@@ -631,15 +631,15 @@ function Portfolio() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 398
+                                        lineNumber: 204,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         children: group.group
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 439
+                                        lineNumber: 205,
+                                        columnNumber: 15
                                     }, this),
                                     group.items.map(([name, desc])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "skill",
@@ -647,13 +647,13 @@ function Portfolio() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Mark, {}, void 0, false, {
                                                         fileName: "[project]/components/portfolio.tsx",
-                                                        lineNumber: 18,
-                                                        columnNumber: 536
+                                                        lineNumber: 209,
+                                                        columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/portfolio.tsx",
-                                                    lineNumber: 18,
-                                                    columnNumber: 530
+                                                    lineNumber: 208,
+                                                    columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
@@ -661,44 +661,44 @@ function Portfolio() {
                                                             children: name
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/portfolio.tsx",
-                                                            lineNumber: 18,
-                                                            columnNumber: 556
+                                                            lineNumber: 212,
+                                                            columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                             children: desc
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/portfolio.tsx",
-                                                            lineNumber: 18,
-                                                            columnNumber: 569
+                                                            lineNumber: 213,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/portfolio.tsx",
-                                                    lineNumber: 18,
-                                                    columnNumber: 551
+                                                    lineNumber: 211,
+                                                    columnNumber: 19
                                                 }, this)
                                             ]
                                         }, name, true, {
                                             fileName: "[project]/components/portfolio.tsx",
-                                            lineNumber: 18,
-                                            columnNumber: 496
+                                            lineNumber: 207,
+                                            columnNumber: 17
                                         }, this))
                                 ]
                             }, group.group, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 18,
-                                columnNumber: 347
+                                lineNumber: 203,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 18,
-                        columnNumber: 292
+                        lineNumber: 201,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 18,
-                columnNumber: 3
+                lineNumber: 188,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "work",
@@ -709,8 +709,8 @@ function Portfolio() {
                         children: "03 / SELECTED WORK"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 19,
-                        columnNumber: 47
+                        lineNumber: 222,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "headline-row",
@@ -720,21 +720,21 @@ function Portfolio() {
                                     "Made to move",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 148
+                                        lineNumber: 226,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                         children: "ideas forward."
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 153
+                                        lineNumber: 227,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 19,
-                                columnNumber: 132
+                                lineNumber: 224,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "filters",
@@ -749,19 +749,19 @@ function Portfolio() {
                                         children: c
                                     }, c, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 249
+                                        lineNumber: 231,
+                                        columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 19,
-                                columnNumber: 181
+                                lineNumber: 229,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 19,
-                        columnNumber: 102
+                        lineNumber: 223,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "project-grid",
@@ -775,42 +775,42 @@ function Portfolio() {
                                                 className: "art-grid"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 19,
-                                                columnNumber: 521
+                                                lineNumber: 245,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: String(i + 1).padStart(2, "0")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 19,
-                                                columnNumber: 548
+                                                lineNumber: 246,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "art-title",
                                                 children: p.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 19,
-                                                columnNumber: 592
+                                                lineNumber: 247,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "#contact",
                                                 "aria-label": `Enquire about ${p.title}`,
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Arrow, {}, void 0, false, {
                                                     fileName: "[project]/components/portfolio.tsx",
-                                                    lineNumber: 19,
-                                                    columnNumber: 693
+                                                    lineNumber: 249,
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 19,
-                                                columnNumber: 634
+                                                lineNumber: 248,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 460
+                                        lineNumber: 244,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "project-meta",
@@ -825,28 +825,28 @@ function Portfolio() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/portfolio.tsx",
-                                                        lineNumber: 19,
-                                                        columnNumber: 747
+                                                        lineNumber: 254,
+                                                        columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: p.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/portfolio.tsx",
-                                                        lineNumber: 19,
-                                                        columnNumber: 785
+                                                        lineNumber: 257,
+                                                        columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: p.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/portfolio.tsx",
-                                                        lineNumber: 19,
-                                                        columnNumber: 803
+                                                        lineNumber: 258,
+                                                        columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 19,
-                                                columnNumber: 742
+                                                lineNumber: 253,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "tags",
@@ -854,36 +854,36 @@ function Portfolio() {
                                                         children: t
                                                     }, t, false, {
                                                         fileName: "[project]/components/portfolio.tsx",
-                                                        lineNumber: 19,
-                                                        columnNumber: 870
+                                                        lineNumber: 262,
+                                                        columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 19,
-                                                columnNumber: 831
+                                                lineNumber: 260,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 712
+                                        lineNumber: 252,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, p.title, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 19,
-                                columnNumber: 417
+                                lineNumber: 243,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 19,
-                        columnNumber: 363
+                        lineNumber: 241,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 19,
-                columnNumber: 3
+                lineNumber: 221,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "experience",
@@ -894,8 +894,8 @@ function Portfolio() {
                         children: "04 / JOURNEY"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 20,
-                        columnNumber: 59
+                        lineNumber: 271,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "headline-row",
@@ -904,26 +904,26 @@ function Portfolio() {
                                 "Experience, with",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/components/portfolio.tsx",
-                                    lineNumber: 20,
-                                    columnNumber: 158
+                                    lineNumber: 275,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                     children: "intention."
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio.tsx",
-                                    lineNumber: 20,
-                                    columnNumber: 163
+                                    lineNumber: 276,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio.tsx",
-                            lineNumber: 20,
-                            columnNumber: 138
+                            lineNumber: 273,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 20,
-                        columnNumber: 108
+                        lineNumber: 272,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "timeline",
@@ -933,16 +933,16 @@ function Portfolio() {
                                         className: "timeline-dot"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 268
+                                        lineNumber: 282,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "date",
                                         children: item.date
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 300
+                                        lineNumber: 283,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
@@ -950,52 +950,52 @@ function Portfolio() {
                                                 children: item.role
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 20,
-                                                columnNumber: 344
+                                                lineNumber: 285,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                 children: item.company
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 20,
-                                                columnNumber: 364
+                                                lineNumber: 286,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: item.copy
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 20,
-                                                columnNumber: 387
+                                                lineNumber: 287,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                 children: item.tech
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 20,
-                                                columnNumber: 405
+                                                lineNumber: 288,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 339
+                                        lineNumber: 284,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, item.date, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 20,
-                                columnNumber: 243
+                                lineNumber: 281,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 20,
-                        columnNumber: 193
+                        lineNumber: 279,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 20,
-                columnNumber: 3
+                lineNumber: 270,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "section credentials",
@@ -1005,8 +1005,8 @@ function Portfolio() {
                         children: "05 / FOUNDATION"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 21,
-                        columnNumber: 44
+                        lineNumber: 295,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "credential-grid",
@@ -1021,44 +1021,44 @@ function Portfolio() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 178
+                                        lineNumber: 299,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         children: c.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 210
+                                        lineNumber: 302,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: c.detail
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 228
+                                        lineNumber: 303,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Mark, {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 245
+                                        lineNumber: 304,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, c.type, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 21,
-                                columnNumber: 156
+                                lineNumber: 298,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 21,
-                        columnNumber: 96
+                        lineNumber: 296,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 21,
-                columnNumber: 3
+                lineNumber: 294,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "section terminal",
@@ -1071,31 +1071,31 @@ function Portfolio() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 104
+                                        lineNumber: 312,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 111
+                                        lineNumber: 313,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 118
+                                        lineNumber: 314,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                         children: "alex@studio: ~"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 125
+                                        lineNumber: 315,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 22,
-                                columnNumber: 74
+                                lineNumber: 311,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "code",
@@ -1106,16 +1106,16 @@ function Portfolio() {
                                                 children: "const"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 22,
-                                                columnNumber: 177
+                                                lineNumber: 319,
+                                                columnNumber: 15
                                             }, this),
                                             " currentlyBuilding = ",
-                                            '{'
+                                            "{"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 174
+                                        lineNumber: 318,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
@@ -1124,15 +1124,15 @@ function Portfolio() {
                                                 children: '"useful digital experiences"'
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 22,
-                                                columnNumber: 241
+                                                lineNumber: 322,
+                                                columnNumber: 34
                                             }, this),
                                             ","
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 219
+                                        lineNumber: 321,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
@@ -1141,15 +1141,15 @@ function Portfolio() {
                                                 children: '"open to collaboration"'
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 22,
-                                                columnNumber: 316
+                                                lineNumber: 326,
+                                                columnNumber: 35
                                             }, this),
                                             ","
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 293
+                                        lineNumber: 325,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
@@ -1158,44 +1158,44 @@ function Portfolio() {
                                                 children: '"curious"'
                                             }, void 0, false, {
                                                 fileName: "[project]/components/portfolio.tsx",
-                                                lineNumber: 22,
-                                                columnNumber: 386
+                                                lineNumber: 329,
+                                                columnNumber: 35
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 363
+                                        lineNumber: 328,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            '}',
+                                            "}",
                                             ";"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 418
+                                        lineNumber: 331,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "cursor",
                                         children: "▌"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 431
+                                        lineNumber: 332,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 22,
-                                columnNumber: 152
+                                lineNumber: 317,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 22,
-                        columnNumber: 41
+                        lineNumber: 310,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -1204,48 +1204,48 @@ function Portfolio() {
                                 children: "06 / NOW"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 22,
-                                columnNumber: 475
+                                lineNumber: 336,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: [
                                     "Always learning.",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 540
+                                        lineNumber: 339,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                         children: "Always making."
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 545
+                                        lineNumber: 340,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 22,
-                                columnNumber: 520
+                                lineNumber: 337,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Currently exploring the space between intelligent systems and genuinely human interfaces."
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 22,
-                                columnNumber: 573
+                                lineNumber: 342,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 22,
-                        columnNumber: 470
+                        lineNumber: 335,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 22,
-                columnNumber: 3
+                lineNumber: 309,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "contact",
@@ -1258,36 +1258,36 @@ function Portfolio() {
                                 children: "07 / CONTACT"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 58
+                                lineNumber: 350,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: [
                                     "Let's build something",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 137
+                                        lineNumber: 353,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                         children: "worth remembering."
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 142
+                                        lineNumber: 354,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 107
+                                lineNumber: 351,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Have a project in mind, or just want to say hello? I'd love to hear from you."
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 174
+                                lineNumber: 356,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 className: "email-link",
@@ -1297,20 +1297,20 @@ function Portfolio() {
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Arrow, {}, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 338
+                                        lineNumber: 361,
+                                        columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 263
+                                lineNumber: 360,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 23,
-                        columnNumber: 53
+                        lineNumber: 349,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                         onSubmit: submit,
@@ -1324,14 +1324,14 @@ function Portfolio() {
                                         placeholder: "Your name"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 392
+                                        lineNumber: 367,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 381
+                                lineNumber: 365,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                 children: [
@@ -1343,14 +1343,14 @@ function Portfolio() {
                                         placeholder: "you@company.com"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 466
+                                        lineNumber: 371,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 454
+                                lineNumber: 369,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                 children: [
@@ -1362,14 +1362,14 @@ function Portfolio() {
                                         rows: 4
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 562
+                                        lineNumber: 380,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 548
+                                lineNumber: 378,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 className: "button primary",
@@ -1379,39 +1379,39 @@ function Portfolio() {
                                         "Send message ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Arrow, {}, void 0, false, {
                                             fileName: "[project]/components/portfolio.tsx",
-                                            lineNumber: 23,
-                                            columnNumber: 762
+                                            lineNumber: 392,
+                                            columnNumber: 30
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio.tsx",
-                                    lineNumber: 23,
-                                    columnNumber: 747
+                                    lineNumber: 391,
+                                    columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 667
+                                lineNumber: 387,
+                                columnNumber: 11
                             }, this),
                             sent && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "form-note",
                                 children: "Thanks — this demo form is ready to connect to your email service."
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 23,
-                                columnNumber: 793
+                                lineNumber: 397,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 23,
-                        columnNumber: 357
+                        lineNumber: 364,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 23,
-                columnNumber: 3
+                lineNumber: 348,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                 children: [
@@ -1420,23 +1420,23 @@ function Portfolio() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Mark, {}, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 24,
-                                columnNumber: 34
+                                lineNumber: 405,
+                                columnNumber: 11
                             }, this),
                             " ",
                             __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$portfolio$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["profile"].name
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 24,
-                        columnNumber: 11
+                        lineNumber: 404,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "Crafting considered digital experiences."
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 24,
-                        columnNumber: 63
+                        lineNumber: 407,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -1445,8 +1445,8 @@ function Portfolio() {
                                 children: "Back to top ↑"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 24,
-                                columnNumber: 115
+                                lineNumber: 409,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: [
@@ -1457,26 +1457,26 @@ function Portfolio() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio.tsx",
-                                lineNumber: 24,
-                                columnNumber: 147
+                                lineNumber: 410,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 24,
-                        columnNumber: 110
+                        lineNumber: 408,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 24,
-                columnNumber: 3
+                lineNumber: 403,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/portfolio.tsx",
-        lineNumber: 13,
-        columnNumber: 9
+        lineNumber: 51,
+        columnNumber: 5
     }, this);
 }
 }),
@@ -1498,15 +1498,15 @@ __turbopack_context__.s([
     ()=>stats
 ]);
 const profile = {
-    name: "Alex Morgan",
-    initials: "AM",
+    name: "Zwe Let Yar",
+    initials: "ZLY",
     role: "Software Developer",
-    email: "hello@alexmorgan.dev",
+    email: "letyarzwe@gmail.com",
     intro: "I build intentional web experiences where crisp engineering meets a considered visual point of view.",
-    bio: "I’m a placeholder for your story. Replace this paragraph with a concise introduction to your background, the problems you enjoy solving, and the kind of teams you want to work with.",
+    bio: "I specialize in creating visually appealing and user-friendly websites. With a strong focus on delivering exceptional results, I combine my technical expertise with a passion for delivering exceptional user experiences. My goal is to exceed expectations and exceed client expectations.",
     location: "Available worldwide",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com"
+    github: "https://github.com/ZweLetYar",
+    linkedin: "https://www.linkedin.com/in/zwe-let-yar-273789365/"
 };
 const stats = [
     {

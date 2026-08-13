@@ -371,41 +371,56 @@ body {
 }
 
 main {
+  background: radial-gradient(circle at 80% 6%, #ddd5ff 0, #0000 30rem), radial-gradient(circle at 7% 38%, #d9f4bb 0, #0000 28rem), linear-gradient(135deg, #f9f7f1 0%, #efedf8 47%, #f7f5ee 100%);
   position: relative;
   overflow: hidden;
+}
+
+main:before {
+  content: "";
+  pointer-events: none;
+  opacity: .55;
+  background-image: linear-gradient(#3b2b640e 1px, #0000 1px), linear-gradient(90deg, #3b2b640e 1px, #0000 1px);
+  background-size: 56px 56px;
+  position: absolute;
+  inset: 0;
+  -webkit-mask-image: linear-gradient(#000, #0000 70%);
+  mask-image: linear-gradient(#000, #0000 70%);
 }
 
 .noise {
   pointer-events: none;
   opacity: .035;
-  z-index: 10;
+  z-index: 30;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   position: fixed;
   inset: 0;
 }
 
 .ambient {
-  filter: blur(100px);
-  opacity: .22;
+  filter: blur(90px);
+  opacity: .35;
   pointer-events: none;
   border-radius: 50%;
+  animation: 16s ease-in-out infinite alternate drift;
   position: absolute;
 }
 
 .ambient-one {
-  background: #a68aff;
-  width: 32rem;
-  height: 32rem;
-  top: -12rem;
-  right: -12rem;
+  background: linear-gradient(135deg, #9c81ff, #efb8e6);
+  width: 36rem;
+  height: 36rem;
+  top: -14rem;
+  right: -13rem;
 }
 
 .ambient-two {
-  background: #d1fa8c;
-  width: 25rem;
-  height: 25rem;
-  top: 65rem;
-  left: -15rem;
+  background: linear-gradient(135deg, #e8ffb9, #8de0d2);
+  width: 30rem;
+  height: 30rem;
+  animation-delay: -8s;
+  top: 52rem;
+  left: -17rem;
 }
 
 .section {
@@ -417,17 +432,19 @@ main {
 
 .nav {
   z-index: 20;
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
-  background: #f5f3eec2;
-  border-bottom: 1px solid #0000;
+  -webkit-backdrop-filter: blur(18px) saturate(145%);
+  background: #f8f7f3a8;
+  border-bottom: 1px solid #4637691c;
   justify-content: space-between;
   align-items: center;
   height: 76px;
   padding: 0 5vw;
   display: flex;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 8px 30px #3329510d;
 }
 
 .brand {
@@ -502,7 +519,7 @@ nav button:hover, nav .active {
 
 .hero {
   min-height: 700px;
-  padding-top: 7rem;
+  padding-top: calc(7rem + 76px);
 }
 
 .eyebrow, .section-label {
@@ -579,44 +596,20 @@ h2 {
 }
 
 .portrait-inner {
-  color: #eee;
   background: #1c1c19;
   border-radius: 50%;
-  flex-direction: column;
-  justify-content: space-between;
   width: 250px;
   height: 250px;
-  padding: 1.5rem;
-  display: flex;
   position: relative;
   overflow: hidden;
-  box-shadow: inset 0 0 0 1px #fff2, 0 30px 60px #675ab340;
+  box-shadow: inset 0 0 0 1px #fff6, 0 30px 60px #675ab355;
 }
 
-.portrait-inner:after {
-  content: "";
-  background: var(--lime);
-  filter: blur(20px);
-  border-radius: 50%;
-  width: 180px;
-  height: 180px;
-  position: absolute;
-  bottom: -70px;
-  right: -70px;
-}
-
-.portrait-inner strong {
-  letter-spacing: -.14em;
-  z-index: 1;
-  font-family: Georgia, serif;
-  font-size: 6rem;
-  line-height: .8;
-}
-
-.portrait-inner span, .portrait-inner small {
-  letter-spacing: .12em;
-  z-index: 1;
-  font-size: .65rem;
+.portrait-inner img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .portrait-glow {
@@ -739,7 +732,9 @@ h2 {
 }
 
 .skill-group {
-  background: var(--paper);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: #f5f3eebf;
   min-height: 360px;
   padding: 1.5rem;
 }
@@ -954,6 +949,7 @@ h2 {
 
 .credential-grid article {
   border: 1px solid var(--line);
+  background: #fff3;
   flex-direction: column;
   align-items: flex-start;
   min-height: 200px;
@@ -1154,6 +1150,16 @@ footer div:last-child {
   }
 }
 
+@keyframes drift {
+  0% {
+    transform: translate3d(-3%, 0, 0)scale(.95);
+  }
+
+  100% {
+    transform: translate3d(5%, 6%, 0)scale(1.1);
+  }
+}
+
 @media (max-width: 800px) {
   .nav {
     height: 66px;
@@ -1186,7 +1192,7 @@ footer div:last-child {
 
   .hero {
     min-height: auto;
-    padding-top: 4rem;
+    padding-top: calc(4rem + 66px);
   }
 
   .hero-grid, .about-content, .terminal, .contact {

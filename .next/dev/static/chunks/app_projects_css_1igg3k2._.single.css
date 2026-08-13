@@ -1,0 +1,24 @@
+/* [project]/app/projects.css [app-client] (css) */
+.project-links {
+  gap: 1rem;
+  margin-top: 1.15rem;
+  display: flex;
+}
+
+.project-links a {
+  color: #f7f5ef;
+  border-bottom: 1px solid #c9fb66;
+  gap: .35rem;
+  padding-bottom: .15rem;
+  font-size: .72rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform .2s;
+  display: inline-flex;
+}
+
+.project-links a:hover {
+  transform: translateX(3px);
+}
+
+/*# sourceMappingURL=app_projects_css_1igg3k2._.single.css.map*/
