@@ -1,5 +1,5 @@
 "use client";
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import portraitPhoto from "@/photos/photo_2026-08-13_22-57-16.jpg";
 import {
@@ -17,11 +17,33 @@ const Mark = () => (
     ✦
   </span>
 );
+type ChatMessage = { role: "assistant" | "user"; text: string };
+
+const chatPrompts = [
+  "What do you build?",
+  "Do you work with React?",
+  "Tell me about AI projects",
+  "Can you build a mobile app?",
+  "What is your experience?",
+  "Where are you based?",
+  "How can I start a project?",
+];
+
 export function Portfolio() {
   const [menu, setMenu] = useState(false);
   const [active, setActive] = useState("about");
   const [filter, setFilter] = useState("All");
   const [sent, setSent] = useState(false);
+  const [chatOpen, setChatOpen] = useState(false);
+  const [chatInput, setChatInput] = useState("");
+  const [chatThinking, setChatThinking] = useState(false);
+  const [chatMessages, setChatMessages] = useState<ChatMessage[]>([
+    {
+      role: "assistant",
+      text: `Hi! I’m ${profile.name.split(" ")[0]}’s portfolio assistant. Ask me about their work, skills, or availability.`,
+    },
+  ]);
+  const chatInputRef = useRef<HTMLInputElement>(null);
   useEffect(() => {
     const handler = () => {
       const sections = ["about", "skills", "work", "experience", "contact"];
@@ -62,6 +84,68 @@ export function Portfolio() {
     e.preventDefault();
     setSent(true);
   };
+  const answerChat = (question: string) => {
+    const query = question.toLowerCase();
+    const firstName = profile.name.split(" ")[0];
+    const matchedProject = projects.find((project) =>
+      query.includes(project.title.toLowerCase()),
+    );
+    const matchedSkill = skills
+      .flatMap((group) => group.items.map(([name, description]) => ({ name, description })))
+      .find((skill) => query.includes(skill.name.toLowerCase()));
+    if (matchedProject) {
+      return `${matchedProject.title} is a ${matchedProject.category.toLowerCase()} project from ${matchedProject.year}. ${matchedProject.description} It uses ${matchedProject.tags.join(", ")}.`;
+    }
+    if (matchedSkill) {
+      return `Yes — ${firstName} works with ${matchedSkill.name}. On this portfolio, it is used for ${matchedSkill.description.toLowerCase()}.`;
+    }
+    if (/(available|hire|contact|collaborat)/.test(query)) {
+      return `${firstName} is open to selected collaborations and available worldwide. Share a little about your project at ${profile.email} to start a conversation.`;
+    }
+    if (/(price|rate|cost|budget)/.test(query)) {
+      return `Project scope and budget are best discussed directly. Send ${firstName} a short brief at ${profile.email}, including your timeline, goals, and budget range.`;
+    }
+    if (/(location|based|country|remote|worldwide)/.test(query)) {
+      return `${firstName} is available worldwide and can collaborate remotely with teams and clients across time zones.`;
+    }
+    if (/(education|degree|university|study|student)/.test(query)) {
+      return `${firstName} is studying for a BE in Information Science & Technology at the University of Technology (Yadanarpon Cyber City), expected in 2027.`;
+    }
+    if (/(ai|machine learning|ml|vision|tensorflow|pytorch|webcam)/.test(query)) {
+      return `Yes — ${firstName} explores practical AI/ML work, including Computer Vision, TensorFlow, and PyTorch. The Webcam Image Processing and Mood Display App projects are good examples.`;
+    }
+    if (/(mobile|app|phone|ios|android)/.test(query)) {
+      return `${firstName} has built mobile-first experiences including Mooncal Period Tracker and Badminton Schedule, with React and Firebase in the toolkit.`;
+    }
+    if (/(website|web app|frontend|backend|full.?stack|build|need|help)/.test(query)) {
+      return `That sounds like a strong fit. ${firstName} builds thoughtful web products with React, Next.js, TypeScript, Node.js, APIs, and databases. Tell me a little more about the idea, audience, or features you have in mind.`;
+    }
+    if (/(skill|stack|technolog|use)/.test(query)) {
+      return `The core toolkit includes ${skills.flatMap((group) => group.items.map(([name]) => name)).join(", ")}. Ask about any technology by name for a more specific answer.`;
+    }
+    if (/(project|work|portfolio|built)/.test(query)) {
+      return `There are projects across web, mobile, and AI/ML — including ${projects.slice(0, 4).map((project) => project.title).join(", ")}. What kind of work are you most interested in?`;
+    }
+    if (/(experience|background|career)/.test(query)) {
+      return `${firstName} currently works as a Software Developer / Freelancer at Healthy & Happy, contributing across frontend and backend development with Next.js and TypeScript.`;
+    }
+    return `I understand you’re asking about “${question}”. I can help with ${firstName}’s web, mobile, or AI work; specific technologies; background; availability; or getting a project started.`;
+  };
+  const sendChat = (e?: FormEvent<HTMLFormElement>, prompt?: string) => {
+    e?.preventDefault();
+    const question = (prompt ?? chatInput).trim();
+    if (!question || chatThinking) return;
+    setChatMessages((messages) => [...messages, { role: "user", text: question }]);
+    setChatInput("");
+    setChatThinking(true);
+    window.setTimeout(() => {
+      setChatMessages((messages) => [...messages, { role: "assistant", text: answerChat(question) }]);
+      setChatThinking(false);
+    }, 500);
+  };
+  useEffect(() => {
+    if (chatOpen) window.setTimeout(() => chatInputRef.current?.focus(), 50);
+  }, [chatOpen]);
   const filtered =
     filter === "All" ? projects : projects.filter((p) => p.category === filter);
   return (
@@ -438,6 +522,57 @@ export function Portfolio() {
           </span>
         </div>
       </footer>
+      <div className="portfolio-chat">
+        {chatOpen && (
+          <section id="portfolio-chat" className="chat-window" aria-label="Portfolio assistant">
+            <header className="chat-header">
+              <div>
+                <span className="chat-avatar">✦</span>
+                <span className="chat-status" />
+                <b>Portfolio concierge</b>
+                <small>Ask anything about Zwe’s work</small>
+              </div>
+              <button className="chat-close" onClick={() => setChatOpen(false)} aria-label="Close chat">
+                <span>×</span>
+              </button>
+            </header>
+            <div className="chat-messages" aria-live="polite">
+              {chatMessages.map((message, index) => (
+                <p className={`chat-message ${message.role}`} key={`${message.role}-${index}`}>
+                  {message.text}
+                </p>
+              ))}
+              {chatThinking && <p className="chat-message assistant chat-typing">Thinking<span>...</span></p>}
+            </div>
+            <div className="chat-prompts">
+              {chatPrompts.map((prompt) => (
+                <button key={prompt} onClick={() => sendChat(undefined, prompt)}>
+                  {prompt}
+                </button>
+              ))}
+            </div>
+            <form className="chat-form" onSubmit={sendChat}>
+              <input
+                ref={chatInputRef}
+                value={chatInput}
+                onChange={(event) => setChatInput(event.target.value)}
+                placeholder="Ask a question..."
+                aria-label="Ask the portfolio assistant"
+              />
+              <button type="submit" aria-label="Send message"><span>↑</span></button>
+            </form>
+            <p className="chat-disclaimer">Portfolio guide · Answers based on this site</p>
+          </section>
+        )}
+        <button
+          className="chat-launcher"
+          onClick={() => setChatOpen((open) => !open)}
+          aria-expanded={chatOpen}
+          aria-controls="portfolio-chat"
+        >
+          <span className="launcher-icon">✦</span> {chatOpen ? "Close assistant" : "Ask the assistant"}
+        </button>
+      </div>
     </main>
   );
 }

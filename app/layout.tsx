@@ -4,6 +4,8 @@ import "./portrait.css";
 import "./motion.css";
 import "./projects.css";
 import "./spacing.css";
+import "./chat.css";
+import "./chat.css";
 
 export const metadata: Metadata = {
   title: "Zwe Let Yar — Software Developer",
